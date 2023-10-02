@@ -1,0 +1,86 @@
+*{
+    margin: 0px;
+    padding: 0.7rem;
+    box-sizing: border-box;
+    color: #120B48;
+    
+}
+
+.content{
+    padding: 10px;
+    min-width: 300px;
+}
+.main {
+    border-radius: 10px;
+    background-color: gray;
+    width: 300px;
+}
+
+.button_cont button{
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    background: teal;
+    color: white;
+    width: 100%;
+
+}
+
+.button_cont button:hover{
+    box-shadow: 1px 0px 10px #eee;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.middle-section {
+
+}
+
+.icons {
+    display: flex;
+    justify-content: space-around;
+}
+
+.toggles {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.toggle-item {
+    border: 1px solid black;
+    width: 100%;
+    border-radius: 15px;
+}
+
+.recording-btn {
+    width: 100%;
+    border-radius: 12px;
+    background-color: #120B48;
+    color: white;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+
+.floating-buttons {
+    position: fixed;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 8px;
+    border-radius: 0 0 5px 5px;
+}
+
+.floating-buttons button {
+    margin-right: 8px;
+    padding: 6px 12px;
+    font-size: 14px;
+}
